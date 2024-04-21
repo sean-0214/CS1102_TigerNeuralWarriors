@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work Sans:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home-page">
+      <b class="overview">Overview: </b>
+      <div class="top">
+        <div class="cs1102-project-topic">
+          CS1102 PROJECT TOPIC - THE DEVELOPMENT OF NEURAL NETWORKS
+        </div>
+        <div class="the-use-of">THE USE OF MLP IN DIGIT IMAGE RECOGNITION</div>
+        <div class="group-no-25-parent">
+          <div class="group-no-25">Group No. 25:</div>
+          <div class="student-name">Student Name:</div>
+          <div class="student-id">Student ID:</div>
+          <div class="jack-cooper">Jack Cooper</div>
+          <div class="div">40152099</div>
+          <div class="david-lee">David Lee</div>
+          <div class="div1">55752993</div>
+          <div class="kim-kangmin">Kim Kangmin</div>
+          <div class="div2">56314303</div>
+          <div class="sean-chiang-shang-en">Sean Chiang Shang-en</div>
+          <div class="div3">57159310</div>
+        </div>
+      </div>
+      <div class="home-page-child"></div>
+      <button class="button">
+        <div class="button1">Home</div>
+      </button>
+      <button class="button2" id="button1">
+        <div class="button1">Reflections</div>
+      </button>
+      <button class="button4" id="button2">
+        <div class="button5">Try It Out</div>
+      </button>
+      <img class="cicles-icon" alt="" src="./public/cicles.svg" />
+    </div>
+
+    <script>
+      var button1 = document.getElementById("button1");
+      if (button1) {
+        button1.addEventListener("click", function (e) {
+          window.location.href = "./reflections.html";
+        });
+      }
+      
+      var button2 = document.getElementById("button2");
+      if (button2) {
+        button2.addEventListener("click", function (e) {
+          window.location.href = "./try-it-out.html";
+        });
+      }
+      </script>
+  </body>
+</html>

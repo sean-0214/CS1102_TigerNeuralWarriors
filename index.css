@@ -1,0 +1,249 @@
+.overview {
+  top: 642px;
+  left: 11.08%;
+}
+.cs1102-project-topic,
+.overview,
+.the-use-of {
+  position: absolute;
+  letter-spacing: -0.02em;
+}
+.cs1102-project-topic {
+  top: 0;
+  left: calc(50% - 199px);
+}
+.the-use-of {
+  width: 51.86%;
+  top: 81px;
+  left: 0;
+  font-size: var(--header-1-size);
+  font-weight: 900;
+  font-family: var(--header-1);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  height: 313px;
+}
+.group-no-25,
+.student-id,
+.student-name {
+  position: absolute;
+  top: 6px;
+  left: 149.5px;
+  font-size: var(--button-size);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+.student-id,
+.student-name {
+  top: 56px;
+  left: 11px;
+}
+.student-id {
+  top: 51px;
+  left: 292px;
+}
+.jack-cooper {
+  top: 101px;
+  left: 11px;
+}
+.david-lee,
+.div,
+.div1,
+.jack-cooper {
+  position: absolute;
+  letter-spacing: -0.02em;
+}
+.div {
+  top: 106px;
+  left: 305.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 91px;
+  height: 23px;
+}
+.david-lee,
+.div1 {
+  top: 148px;
+  left: 11px;
+}
+.div1 {
+  left: 306px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 91px;
+  height: 23px;
+}
+.kim-kangmin {
+  top: 200px;
+  left: 11px;
+}
+.div2,
+.div3,
+.kim-kangmin,
+.sean-chiang-shang-en {
+  position: absolute;
+  letter-spacing: -0.02em;
+}
+.div2 {
+  top: 198px;
+  left: 306px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 89px;
+  height: 23px;
+}
+.div3,
+.sean-chiang-shang-en {
+  top: 248px;
+  left: 11px;
+}
+.div3 {
+  top: 242px;
+  left: 309px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 23px;
+}
+.group-no-25-parent {
+  position: absolute;
+  width: 43.51%;
+  top: 99px;
+  right: 0;
+  left: 56.49%;
+  border-radius: 20px;
+  background-color: rgba(30, 32, 82, 0.7);
+  height: 276px;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+}
+.top {
+  position: absolute;
+  top: 49px;
+  left: 115px;
+  width: 970px;
+  height: 394px;
+  text-align: center;
+  font-size: var(--font-size-lgi);
+}
+.home-page-child {
+  position: absolute;
+  width: 80.83%;
+  top: 514px;
+  right: 9.58%;
+  left: 9.58%;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-midnightblue-100);
+  height: 68px;
+}
+.button1 {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: var(--header-1);
+  color: var(--color-white);
+  text-align: center;
+}
+.button,
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-12xl);
+  position: absolute;
+  top: 514px;
+  overflow: hidden;
+  flex-direction: row;
+}
+.button {
+  background-color: var(--color-slategray);
+  width: 14.79%;
+  right: 75.63%;
+  left: 9.58%;
+  border-radius: var(--br-21xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.button:hover {
+  background-color: rgba(11, 58, 80, 0.61);
+}
+.button2 {
+  background-color: transparent;
+  left: calc(50% + 186px);
+  border-radius: var(--br-8xs);
+}
+.button2:hover,
+.button4:hover {
+  background-color: var(--color-white);
+}
+.button2,
+.button4,
+.button5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button5 {
+  width: 95px;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: var(--header-1);
+  color: var(--color-white);
+  text-align: center;
+  flex-shrink: 0;
+}
+.button4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-12xl);
+  background-color: transparent;
+  position: absolute;
+  top: 514px;
+  left: calc(50% - 108px);
+  border-radius: var(--br-8xs);
+  height: 68px;
+  overflow: hidden;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.cicles-icon {
+  position: absolute;
+  top: -115px;
+  left: -78px;
+  width: 1476px;
+  height: 710px;
+}
+.home-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-midnightblue-200);
+  height: 1803px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 59px;
+  color: var(--color-white);
+  font-family: var(--button);
+}
+@media screen and (max-width: 1200px) {
+  .button:hover {
+    background-color: rgba(15, 62, 84, 0.8);
+  }
+  .button2:hover {
+    background-color: var(--color-midnightblue-200);
+  }
+  .button4:hover {
+    background-color: #f2f7fa;
+  }
+  .button4:active {
+    background-color: var(--color-white);
+  }
+}
