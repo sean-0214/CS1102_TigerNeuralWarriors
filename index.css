@@ -1,0 +1,317 @@
+.neural-network-description,
+.cs1102-project-topic,
+.the-use-of {
+  position: absolute;
+  letter-spacing: -0.02em;
+}
+.cs1102-project-topic {
+  top: 0;
+  left: 20%;
+}
+.the-use-of {
+  width: 51.86%;
+  top: 81px;
+  left: 0;
+  font-size: var(--header-1-size);
+  font-weight: 900;
+  font-family: var(--header-1);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  height: 313px;
+}
+.group-no-25,
+.student-id,
+.student-name {
+  position: absolute;
+  top: 6px;
+  left: 149.5px;
+  font-size: var(--button-size);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+.student-id,
+.student-name {
+  top: 56px;
+  left: 11px;
+}
+.student-id {
+  top: 51px;
+  left: 292px;
+}
+.jack-cooper {
+  top: 101px;
+  left: 11px;
+}
+.david-lee,
+.div,
+.div1,
+.jack-cooper {
+  position: absolute;
+  letter-spacing: -0.02em;
+}
+.div {
+  top: 106px;
+  left: 305.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 91px;
+  height: 23px;
+}
+.david-lee,
+.div1 {
+  top: 148px;
+  left: 11px;
+}
+.div1 {
+  left: 306px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 91px;
+  height: 23px;
+}
+.kim-kangmin {
+  top: 200px;
+  left: 11px;
+}
+.div2,
+.div3,
+.kim-kangmin,
+.sean-chiang-shang-en {
+  position: absolute;
+  letter-spacing: -0.02em;
+}
+.div2 {
+  top: 198px;
+  left: 306px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 89px;
+  height: 23px;
+}
+.div3,
+.sean-chiang-shang-en {
+  top: 248px;
+  left: 11px;
+}
+.div3 {
+  top: 242px;
+  left: 309px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 23px;
+}
+.group-no-25-parent {
+  position: absolute;
+  width: 43.51%;
+  top: 99px;
+  right: 0;
+  border-radius: 20px;
+  background-color: rgba(30, 32, 82, 0.7);
+  height: 276px;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+}
+.top {
+  position: absolute;
+  top: 49px;
+  left: 9.58%;
+  width: 80.84%;
+  height: 394px;
+  text-align: center;
+  font-size: var(--font-size-lgi);
+}
+.home-page-child {
+  position: absolute;
+  top: 614px;
+  right: 9.58%;
+  left: 9.58%;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-midnightblue-100);
+  height: 68px;
+}
+.button1 {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: var(--header-1);
+  color: var(--color-white);
+  text-align: center;
+}
+.button,
+.button2,
+.button4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-12xl);
+  position: absolute;
+  top: 614px;
+  overflow: hidden;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14.79%;
+  height: 68px;
+  box-sizing: border-box;
+}
+.button {
+  background-color: var(--color-slategray);
+  left: 9.58%;
+  border-radius: var(--br-21xl);
+}
+.button:hover,
+.button2:hover,
+.button4:hover {
+  background-color: var(--color-slategray);
+}
+.button2 {
+  background-color: transparent;
+  border-radius: var(--br-21xl);
+  right: 9.58%;
+}
+.button5 {
+  width: 95px;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: var(--header-1);
+  color: var(--color-white);
+  text-align: center;
+  flex-shrink: 0;
+}
+.button4 {
+  background-color: transparent;
+  left: 42.61%;
+  border-radius: var(--br-21xl);
+}
+
+.cicles-icon {
+  position: absolute;
+  top: -115px;
+  left: -78px;
+  width: 1476px;
+  height: 710px;
+}
+.comparison-with-cnn,
+.history-of-mlp,
+.introduction {
+  position: absolute;
+  top: 0;
+  left: 29.39%;
+  letter-spacing: -0.02em;
+}
+.comparison-with-cnn,
+.history-of-mlp {
+  top: 249px;
+  left: 27.85%;
+}
+.comparison-with-cnn {
+  width: 49.85%;
+  top: 549px;
+  left: 24.97%;
+  display: flex;
+  align-items: center;
+  height: 69px;
+}
+.challenges-and-criticisms {
+  margin: 0;
+}
+.challenges-and-criticisms-container1 {
+  width: 100%;
+}
+.challenges-and-criticisms-container {
+  position: absolute;
+  width: 49.85%;
+  top: 889px;
+  left: 24.36%;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  height: 278px;
+}
+.addressing-mlps-limitations-container,
+.multilayer-perceptron-mlp-container,
+.the-concept-of-container {
+  position: absolute;
+  width: 51.59%;
+  top: 1642px;
+  left: 24.36%;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  height: 69px;
+}
+.multilayer-perceptron-mlp-container,
+.the-concept-of-container {
+  top: 98px;
+  left: 0;
+  font-size: var(--font-size-6xl);
+  width: 970px;
+  height: 146px;
+}
+.the-concept-of-container {
+  top: 346px;
+}
+.mlp-is-a {
+  margin-bottom: 0;
+}
+.mlp-is-a-fully-connected-netwo {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-14xl);
+}
+.despite-its-success-container,
+.multilayer-perceptrons-mlp-container,
+.researchers-and-practitioners-container {
+  position: absolute;
+  font-size: var(--font-size-6xl);
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  width: 970px;
+}
+.multilayer-perceptrons-mlp-container {
+  top: 697px;
+  left: 0;
+  height: 146px;
+}
+.despite-its-success-container,
+.researchers-and-practitioners-container {
+  top: 1144px;
+  left: 1px;
+}
+.researchers-and-practitioners-container {
+  top: 1736px;
+  left: 3px;
+}
+.body {
+  position: absolute;
+  width: 81.08%;
+  top: 723px;
+  right: 9.33%;
+  left: 9.58%;
+  height: 2258px;
+  text-align: left;
+  font-size: var(--font-size-40xl);
+}
+.home-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-midnightblue-200);
+  height: 3131px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-lgi);
+  color: var(--color-white);
+  font-family: var(--button);
+}
+
