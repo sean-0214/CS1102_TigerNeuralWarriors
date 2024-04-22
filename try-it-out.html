@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./try-it-out.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work Sans:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="try-it-out">
+      <div class="cs1102-project-topic1">
+        CS1102 PROJECT TOPIC - THE DEVELOPMENT OF NEURAL NETWORKS
+      </div>
+      <div class="try-it-out-child"></div>
+        <img class="cicles-icon1" alt="" src="./public/cicles.svg" />
+      <button class="button2" id="button1">
+        <div class="button1">Reflections</div>
+      </button>
+      <button class="button">
+        <div class="button5">Try It Out</div>
+      </button>
+      <button class="button4" id="button2">
+        <div class="button1">Home</div>
+      </button>
+
+      <div class="digit-images">
+        <img
+          class="screenshot-2024-04-18-143918-1"
+          alt=""
+          src="./public/screenshot-20240418-143918-1@2x.png"
+        />
+
+        <img
+          class="screenshot-2024-04-19-122054-1"
+          alt=""
+          src="./public/screenshot-20240419-122054-1@2x.png"
+        />
+
+        <img
+          class="screenshot-2024-04-19-122428-1"
+          alt=""
+          src="./public/screenshot-20240419-122428-1@2x.png"
+        />
+
+        <img
+          class="screenshot-2024-04-19-122708-1"
+          alt=""
+          src="./public/screenshot-20240419-122708-1@2x.png"
+        />
+      </div>
+      <div class="choose-a-photo">
+        <button class="button6">
+          <div class="button7">Upload Photo Here</div>
+        </button>
+        <div class="or">OR</div>
+        <div class="choose-from-the">Choose from the above photos</div>
+      </div>
+    </div>
+
+    <script>
+      var button1 = document.getElementById("button1");
+      if (button1) {
+        button1.addEventListener("click", function (e) {
+          window.location.href = "./reflections.html";
+        });
+      }
+      
+      var button2 = document.getElementById("button2");
+      if (button2) {
+        button2.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      </script>
+  </body>
+</html>

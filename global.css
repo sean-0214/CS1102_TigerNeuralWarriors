@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --header-1: Inter;
+  --button: "Work Sans";
+
+  /* font sizes */
+  --font-size-11xl: 30px;
+  --font-size-xl: 20px;
+  --button-size: 22px;
+  --header-1-size: 70px;
+  --font-size-lgi: 19px;
+
+  /* Colors */
+  --color-midnightblue-100: #15184a;
+  --color-midnightblue-200: #000235;
+  --color-white: #fff;
+  --color-slategray: rgba(76, 121, 140, 0.61);
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-12xl: 31px;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+  --br-21xl: 40px;
+  --br-3xs: 10px;
+}
