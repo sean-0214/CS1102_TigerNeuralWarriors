@@ -1,0 +1,4 @@
+To install all the required packages/libraries from a requirements.txt file,
+
+Ctrl C+V the BELOW command to your terminal of the opened python file:
+pip install -r /path/to/requirements.txt
