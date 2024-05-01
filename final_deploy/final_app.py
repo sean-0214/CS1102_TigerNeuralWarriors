@@ -41,17 +41,18 @@ if upload:
     img = Image.open(upload)
 
     prediction = make_prediction(img)
-    img_with_bbox = create_image_with_bboxes(np.array(img).transpose(2,0,1), prediction) ## Give image as (3,W,H) Channel first
+    img_with_bbox = create_image_with_bboxes(np.array(img).transpose(2,0,1), prediction)
 
-    fig = plt.figure(figsize=(12,12))
-    ax = fig.add_subplot(111)
-    plt.imshow(img_with_bbox);
-    plt.xticks([],[]);
-    plt.yticks([],[]);
-    ax.spines[["top", "left", "right", "bottom"]].set_visible(False)
-
+    # Update this section
+    fig, ax = plt.subplots(figsize=(12,12))
+    ax.imshow(img_with_bbox)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+        
     st.pyplot(fig, use_container_width=True)
-
+    
     del prediction["boxes"]
     prediction["scores"] = prediction["scores"].detach().numpy().tolist()
 
