@@ -1,8 +1,10 @@
-  # Project Overview:
+  # Project Overview
+  
   Please download the video to watch
   https://github.com/sean-0214/CS1102_TigerNeuralWarriors/blob/main/Fully%20subtitled%20NN%20video%20CS1102.mp4
   
   # ML model deployed on cloud (direct access) (integrated with HTML, CSS, JS) 
+  
   https://cs1102tigerneuralwarriors-73ns4wfoxmsz7bzwfgnlfp.streamlit.app/
 
   # Team library
